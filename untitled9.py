@@ -35,7 +35,8 @@ def narxi(rusmi):
     rasm1=cv2.imread("photo_2021-01-14_20-53-53.jpg")
     cv2_imshow(rasm1)
     return " $30,000+ USD"
-
+  else:
+        return  "Bu model mavjud emas"
 rusmi= input("Motoning rusmini kiriting: ")
 natija=narxi(rusmi)
 print(natija)
