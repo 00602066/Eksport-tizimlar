@@ -34,7 +34,18 @@ def narxi(rusmi):
   elif rusmi == "Kawasaki":
     rasm1=cv2.imread("photo_2021-01-14_20-53-53.jpg")
     cv2_imshow(rasm1)
-    return " $30,000+ USD"
+  elif rusmi == "Yamaha":
+    rasm1=cv2.imread("200033300956_313142.jpg")
+    cv2_imshow(rasm1)
+    return " $27,295 USD"
+  elif rusmi == "Honda":
+    rasm1=cv2.imread("200009000421_434735.jpg")
+    cv2_imshow(rasm1)
+    return " $28,000+ USD"
+  elif rusmi == "Harley":
+    rasm1=cv2.imread("Без названия.jpg")
+    cv2_imshow(rasm1)
+    return " $24,295 USD"
   else:
         return  "Bu model mavjud emas"
 rusmi= input("Motoning rusmini kiriting: ")
